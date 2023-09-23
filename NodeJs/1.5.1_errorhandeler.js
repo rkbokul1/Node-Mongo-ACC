@@ -12,6 +12,10 @@ module.exports.errorHandeler = errorHandeler;
 module.exports.two = two;
 or module.exports = {errorhandeler, two};
 
+module.exports.two = function two(){
+    // code;
+}
+
 const {errorHandeler, two} = require(./errorHandeler.js)
 
 */
